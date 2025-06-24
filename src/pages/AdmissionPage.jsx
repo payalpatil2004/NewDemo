@@ -4,7 +4,9 @@ import Header from "../componentes/Header/Header";
 const AddmisionPage = () =>{
  return(
         <div>
-            <Header/>
+            <p className="header1">
+            <Header/></p>
+        <div className="page-container">
             <h1>Admissions at Vivekanand College</h1>
             <p>Welcome to the Admissions page of Vivekanand College! We are delighted you're considering joining our vibrant academic community.<br></br> Our admission process is designed to be straightforward and accessible.</p>
 
@@ -47,7 +49,9 @@ const AddmisionPage = () =>{
                 <li>Merit List & Interview: Check the merit list and attend the interview if shortlisted.</li>
                 <li>Fee Payment: Complete the admission by paying the required fees.</li>
             </ol>
+            <p> For detailed information on postgraduate program admissions, specific program syllabi, and fee structures, please visit our Courses page or Contact us directly.</p>
 
+        </div>
         </div>
 
         
