@@ -15,9 +15,14 @@ const HomePage = () => {
                 
 
                     <h1>Welcome to Vivekanad College!</h1><hr/>
+
                     <img src="/images/clg.png" width="1000" height="300"/>
 
-                    <button><a href="./Admission">Apply Now!</a></button>
+                    Your journey to excellence starts here.<br/>
+
+                    <button><a href ="./addmission">Apply Now! </a></button>
+
+                    
                     </div>
 
             

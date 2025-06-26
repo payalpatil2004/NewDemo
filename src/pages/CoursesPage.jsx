@@ -17,7 +17,7 @@ const CoursesPage = () => {
             <h2>Discover Campus Life</h2><hr/>
              
                 <video src="\videos\clg3.mp4" width="1000px" controls />
-                Your browser does not support the video tag.
+                
             
             <h3 style={{textAlign:"center"}}>Get a glimpse of the vibrant academic and social life at Vivekanand College.</h3>
 
@@ -111,7 +111,7 @@ const CoursesPage = () => {
             <br />
             <h3>Have questions about a specific course?</h3>
 
-            <footer style={{textAlign:'center'}}><p>Explore detailed syllabi and admission criteria on our Admission page</p>
+            <footer>
 
             <Link to="/contact" className="button">Inquire About Courses</Link></footer>
         </div>

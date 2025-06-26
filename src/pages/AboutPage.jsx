@@ -10,12 +10,12 @@ const AboutPage = () => {
             <h1 className="headings">About Vivekanand College</h1>
             <p>Vivekanand College stands as a beacon of knowledge and integrity, committed to delivering transformative education since its
                 inception in [Year of Establishment, e.g., 1980]. Located in the bustling heart of [City/Area, e.g., Chembur, Mumbai], our college has
-                consistently strived to uphold the highest standards of academic rigor and ethical values.
+                consistently strived to uphold the highest standards of academic rigor and ethical values.</p>
 
-            <p1>Our vision is to empower students with critical thinking skills, a global perspective, and a strong sense of social responsibility. We aim
+            <p>Our vision is to empower students with critical thinking skills, a global perspective, and a strong sense of social responsibility. We aim
                 to nurture individuals who are not only successful in their careers but also contributing members of society.
-            </p1>
             </p>
+            
             <h2>Our Mission</h2><hr/>
             <ul>
                 <li>To provide high-quality, accessible education across various disciplines.</li>

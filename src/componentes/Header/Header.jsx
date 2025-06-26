@@ -1,13 +1,15 @@
-import './Header.css'
+import './Header.css';
 import {Link} from 'react-router-dom';
+
 
 const Header = () =>{
  return(
       <div>
             <header>
-               <div>
-                <Link to="/home">Vivekanand Collage</Link>
-               </div>
+                <div>
+                    <Link to="/home">Vivekanad College</Link>
+                </div>
+               
 
 
             
@@ -16,9 +18,8 @@ const Header = () =>{
                     <Link to="/about">About</Link>
                     <Link to="/courses">Courses</Link>
                     <Link to="/contact">Contact</Link>
-            
-                    <Link to="/addmision" ClassName="button">Apply Now!</Link>
-
+                    <Link to="/addmision" className="button">Apply Now!</Link>
+                    
                 </nav>
 
 
