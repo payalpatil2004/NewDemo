@@ -1,43 +1,39 @@
 body {
-  font-family: Arial;
-  background-color: white;
-  color :black;
-}
-
-h1 {
-    text-align: center;
-    color: rgb(0, 162, 255);
-    
-    
-    
-}
-
-h3 {
-    text-align: center;
+    background-color:white;
+    color:black
 
 }
+
+h1{
+    color:rgb(0, 162, 255)
+}
+
+h2 {
+  color:black;
+}
+
+
+
+
 button{
+  background-color: green;
+  color:white;
+  text-align: center;
+  cursor: pointer;
 
+}
+
+table ,td,th{
+    border: 1px solid;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+div{
+    padding-top: 50px;
+    padding-right:30px;
     
-  padding: 10px 20px;
-  background-color: rgb(73, 128, 0);
-  border-bottom: 2cm;
-  justify-content: center;
-  align-items: center;
+    padding-left:80px;
 
-}
-
-p{
-    
-font: 1em sans-serif;font-family: Arial;
-}
-
-h3{
-    font-family: Arial;
-
-}
-    table, th, td {
-  border: 1px solid black;
-  border-collapse: collapse;
-  background-color: beige;
 }

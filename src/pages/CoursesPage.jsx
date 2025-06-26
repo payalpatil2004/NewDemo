@@ -14,16 +14,16 @@ const CoursesPage = () => {
                 Vivekanand College offers a comprehensive range of undergraduate and postgraduate programs designed to equip students with the knowledge and skills demanded by today's dynamic global landscape. Our curriculum is regularly updated to reflect industry trends and academic advancements.
             </p>
 
-            <h2>Discover Campus Life</h2>
-            <video width="1000px" controls>  
-                <source src="\videos\clg3.mp4" type="video/mp4" />
+            <h2>Discover Campus Life</h2><hr/>
+             
+                <video src="\videos\clg3.mp4" width="1000px" controls />
                 Your browser does not support the video tag.
-            </video>
-            <p>Get a glimpse of the vibrant academic and social life at Vivekanand College.</p>
+            
+            <h3 style={{textAlign:"center"}}>Get a glimpse of the vibrant academic and social life at Vivekanand College.</h3>
 
             <h2>Undergraduate Programs (UG)</h2>
             <hr />
-            <ul>
+            <ul className="style-list">
                 <li>
                     <b>Bachelor of Science (B.Sc.)</b>
                     <ul>
@@ -50,7 +50,7 @@ const CoursesPage = () => {
 
             <h2>Postgraduate Programs (PG)</h2>
             <hr />
-            <ul>
+            <ul className="style-list">
                 <li>
                     <b>Master of Science (M.Sc.)</b>
                     <ul>
@@ -111,7 +111,9 @@ const CoursesPage = () => {
             <br />
             <h3>Have questions about a specific course?</h3>
 
-            <button onClick={CoursesPage}>Inqurie About Courses</button>
+            <footer style={{textAlign:'center'}}><p>Explore detailed syllabi and admission criteria on our Admission page</p>
+
+            <Link to="/contact" className="button">Inquire About Courses</Link></footer>
         </div>
         </div>
 

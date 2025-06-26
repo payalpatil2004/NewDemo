@@ -1,22 +1,74 @@
-header{
 
+.button{
+    background: green;
     padding: 10px 20px;
-    background-color: rgb(0, 183, 255);
-    border-color: 2cm;
-    text-align: right;
-    align-items: center;
-}
-nav{
-    background-color: #333 ;
-    margin: 0 15px;
-    text-decoration: none;
-    font-weight: bold;
-}
-nav a:hover {
-    color: white#ffcc00;
-}
-nav {
-    background-color: #333;
-    padding: 10px;
+    border-radius: 10px;
     text-align: center;
+}
+.vck{
+    color:white;
+    text-align: left;
+}
+.ojt{
+    color: white;
+    text-align: right;
+}
+
+header{
+    padding: 20px 30px;
+    background-color:aqua;
+    
+    text-align: right;
+    
+
+}
+text {
+    background-color: lightblue; ;
+}
+
+h1{
+    color:blue;
+    text-align: center;
+}
+p{
+    font-family: verdana;
+    font-size: 20px;
+}
+/* Header.css */
+.main-header {
+  background-color: #1e3a8a; /* Corresponds to bg-blue-900 or bg-indigo-900 */
+  color: white;             /* Corresponds to text-white */
+  padding: 1rem 2rem;       /* Corresponds to p-4 (adjusted) */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Corresponds to shadow-md */
+}
+
+.main-header .nav-link {
+  margin-right: 1.5rem;   /* Corresponds to space-x-4/6 */
+  font-weight: 600;       /* Corresponds to font-medium */
+  color: white;           /* Ensure text is white by default */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.main-header .nav-link:hover {
+  color: #facc15; /* Corresponds to hover:text-yellow-400 */
+}
+
+.college-logo {
+  font-size: 2rem;       /* Corresponds to text-2xl */
+  font-weight: bold;     /* Corresponds to font-bold */
+  color: #facc15;        /* Corresponds to text-yellow-400 */
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.college-logo:hover {
+  color: #f0f0f0; /* Slightly lighter yellow for hover */
+}
+
+/* Responsive adjustments if needed, though Tailwind handles this well */
+@media (max-width: 768px) {
+  .main-header .nav-link {
+    margin-right: 1rem;
+  }
 }
