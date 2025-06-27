@@ -1,6 +1,6 @@
 // src/pages/HomePages.jsx
 import Header from "../components/Header/Header";
-import Popup from "../components/Popup/popup";
+import Popup from "../components/Popup/Popup";
 import Footer from "../components/Footer/Footer";
 import { Link } from "react-router-dom";
 import "../styles/Pages.css"; // Ensure styles are applied
