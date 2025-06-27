@@ -1,66 +1,80 @@
-import Header from "../componentes/Header/Header";
+// src/pages/ContactPage.jsx
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
 const ContactPage = () => {
-  return(
-    <div>
-        <p className="header1">
-        <Header/></p>
-        <div className="page-container">
-        <h1 className="heading">Contact Us</h1>
-        <p>We'd love to hear from you! Whether you have questions about admissions, programs, or campus life, our team is here to help.</p>
+  return (
+    <div className="page-container contact-page">
+      <Header />
 
-        <h2>General Enquiries</h2><hr/>
+      <main className="page-content-wrapper">
+        <section className="page-section text-center">
+          <h1 className="section-title-large">Contact Us</h1>
+          <p className="section-text">
+            We'd love to hear from you! Whether you have questions about admissions, programs, or campus life, our team is here to help.
+          </p>
+        </section>
 
-        <p><b>Vivekanand College Main Campus</b>
-          [Your College Full Address Here, e.g., Mahatma Gandhi Road, Chembur, Mumbai, Maharashtra 400071]
-          India
+        <section className="page-section">
+          <h2 className="section-subtitle">General Enquiries</h2>
+          <p className="section-text">
+            <strong>Vivekanand College, Tarabai Park</strong><br />
+            2130, E Ward, Tarabai Park, Kolhapur, Maharashtra 416003<br />
+            Phone: +91-9876543210<br />
+            Email: info@vivekanandcollege.ac.in
+          </p>
+        </section>
 
-          Phone:<b> **+91 12345 67890**</b>
-          Email: <b>**info@vivekanandcollege.edu**</b>
-          Office Hours: Monday - Friday, 9:00 AM - 5:00 PM IST
+        <section className="page-section">
+        <h2 className="section-subtitle">Admissions Office</h2>
+        <p className="section-text">
+        For all admission-related queries regarding undergraduate or postgraduate programs:<br />
+        Phone: +91 98765 43210<br />
+        Email: admissions@vivekanandcollege.edu
         </p>
+        </section>
 
-        <h2>Admissions Office</h2><hr/>
-
-        <p>For all admission-related queries regarding undergraduate or postgraduate programs:
-          Phone: +91 98765 43210
-          Email: admissions@vivekanandcollege.edu
-        </p>
-
-        <h2>Admissions Office</h2><hr/>
-
-        <p>For all admission-related queries regarding undergraduate or postgraduate programs:
-            Phone: +91 98765 43210
-            Email: admissions@vivekanandcollege.edu</p>
-
-        <h2>Student Support Services</h2><hr/>
-
-        <p>For current student support, academic advising, or general assistance:
-          Phone: +91 87654 32109
+        <section className="page-section">
+        <h2 className="section-subtitle">Student Support Services</h2>
+        <p className="section-text">
+          For current student support, academic advising, or general assistance:<br />
+          Phone: +91 87654 32109<br />
           Email: studentsupport@vivekanandcollege.edu
-        </p>
-
-        <h2>Find Us on the Map</h2><hr/>
-
-        <p>[You can embed a Google Map here later using an iframe or a React map library.]
-            View on Google Maps
-        </p>
-
-        <h2>Send Us a Message</h2><hr/>
-
-        <footer>[A contact form with fields for Name, Email, Subject, Message can be added here.] </footer>
-
+          </p>
+        </section>
 
         
 
+        <section className="page-section">
+          <h2 className="section-subtitle">Find Us on Map</h2>
+          <div className="map-container">
+            <iframe
+              title="Vivekanand College Kolhapur Map"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.2905156357306!2d74.23603477514976!3d16.712350184064235!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc100664ad0e191%3A0x4b2af9253659bbec!2sVivekanand%20College!5e0!3m2!1sen!2sin!4v1750577171252!5m2!1sen!2sin"
+              width="100%"
+              height="350"
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              style={{ border: 0 }}
+            ></iframe>
 
+          <section className="page-section">
+            <h2 className="section-subtitle">Send Us a Message</h2>
+            <p className="section-text">
+            [A contact form with fields for Name, Email, Subject, Message can be added here.]
+            </p>
+          </section>
+
+
+
+          </div>
+        </section>
+      </main>
+
+      <Footer />
     </div>
-    </div>
+  );
+};
 
-
-
-  )
-
-
-}
 export default ContactPage;

@@ -1,54 +1,51 @@
-import Header from "../componentes/Header/Header";
+// src/pages/AboutPage.jsx
+import Header from "../components/Header/Header";
+import Footer from "../components/Footer/Footer";
 
 const AboutPage = () => {
-  return(
-    <div>
-        <p className="header1">
-        <Header/>
-        </p>
-        <div className="page-container">
-            <h1 className="headings">About Vivekanand College</h1>
-            <p>Vivekanand College stands as a beacon of knowledge and integrity, committed to delivering transformative education since its
-                inception in [Year of Establishment, e.g., 1980]. Located in the bustling heart of [City/Area, e.g., Chembur, Mumbai], our college has
-                consistently strived to uphold the highest standards of academic rigor and ethical values.</p>
+  return (
+    <div className="page-container about-page">
+      <Header />
 
-            <p>Our vision is to empower students with critical thinking skills, a global perspective, and a strong sense of social responsibility. We aim
-                to nurture individuals who are not only successful in their careers but also contributing members of society.
-            </p>
-            
-            <h2>Our Mission</h2><hr/>
-            <ul>
-                <li>To provide high-quality, accessible education across various disciplines.</li>
-                <li>To foster research, innovation, and creativity among students and faculty.</li>
-                <li>To cultivate a diverse and inclusive learning environment.</li>
-                <li>To instill strong ethical values and leadership qualities.</li>
-            </ul>
+      <main className="page-content-wrapper">
+        <section className="page-section">
+          <h1 className="section-title-large text-center">About Vivekanand College</h1>
+          <p className="section-text">
+            Vivekanand College stands as a beacon of knowledge and integrity, committed to delivering transformative education since its inception in <strong>1980</strong>. Located in the bustling heart of <strong>Kolhapur, Maharashtra</strong>, our college has consistently strived to uphold the highest standards of academic rigor and ethical values.
+          </p>
+          <p className="section-text">
+            Our vision is to empower students with critical thinking skills, a global perspective, and a strong sense of social responsibility. We aim to nurture individuals who are not only successful in their careers but also contributing members of society.
+          </p>
+        </section>
 
-            <h2>Our Values</h2><hr/>
-            <p1>Integrity, Excellence, Innovation, Community, and Respect are the pillars upon which Vivekanand College is built. We encourage open
-                dialogue, intellectual curiosity, and a relentless pursuit of knowledge.
-            </p1>
+        <section className="page-section">
+          <h2 className="section-subtitle">Our Mission</h2>
+          <ul className="section-list">
+            <li>To provide high-quality, accessible education across various disciplines.</li>
+            <li>To foster research, innovation, and creativity among students and faculty.</li>
+            <li>To cultivate a diverse and inclusive learning environment.</li>
+            <li>To instill strong ethical values and leadership qualities.</li>
+          </ul>
+        </section>
 
-            <h2>Our History</h2><hr/>
-            <p>[Briefly describe the college's history - e.g., how it started, key milestones, growth over the years, famous alumni if any]. Our journey began
-                with a vision to make quality education available to all, and we continue that legacy today.
-                //Courses</p>
+        <section className="page-section">
+          <h2 className="section-subtitle">Our Values</h2>
+          <p className="section-text">
+            Integrity, Excellence, Innovation, Community, and Respect are the pillars upon which Vivekanand College is built. We encourage open dialogue, intellectual curiosity, and a relentless pursuit of knowledge.
+          </p>
+        </section>
 
-            
+        <section className="page-section">
+          <h2 className="section-subtitle">Our History</h2>
+          <p className="section-text">
+            Our journey began with a vision to make quality education available to all. Established in 1980 with a handful of courses, Vivekanand College has grown significantly over the years, introducing new disciplines, state-of-the-art facilities, and a dedicated faculty. We are proud of our alumni who have excelled in various fields, contributing to society nationally and globally. We continue to build upon this legacy of excellence and accessibility.
+          </p>
+        </section>
+      </main>
 
-
-
-
-
-        </div>
-
-
+      <Footer />
     </div>
+  );
+};
 
-
-
-  )
-
-
-}
 export default AboutPage;
