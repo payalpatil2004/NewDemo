@@ -1,7 +1,7 @@
 // src/pages/CoursesPage.jsx
 import Header from "../components/Header/Header";
 import Footer from "../components/Footer/Footer";
-import "../styles/pages.css";
+import "../styles/Pages.css";
 
 const CoursesPage = () => {
   return (
